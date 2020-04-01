@@ -158,7 +158,7 @@ namespace FF {
 		protected:
 			T nativeObject;
 			std::function<T(void)> executeBinding;
-			std::function<void(TClass* self)> modifySelf = [](TClass*) {};
+			//std::function<void(TClass* self)> modifySelf = [](TClass*) {};
 		};
 
 	private:
