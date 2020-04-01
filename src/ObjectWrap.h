@@ -141,7 +141,7 @@ namespace FF {
 				TClass* self = new TClass();
 				self->Wrap(info.Holder());
 				self->setNativeObject(nativeObject);
-				modifySelf(self);
+				//modifySelf(self);
 				return info.Holder();
 			}
 
